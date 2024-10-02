@@ -28,9 +28,13 @@ header {
     font-style: italic;
   }
 
-  .a-code-container {
-    /* Kodunuzun dış görünüşünü burada özelleştirin */
-    background-color:#f0f0f0;
-    padding: 20px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    width: 30%; /* Her sütunun genişliği */
+    padding: 10px;
     border: 1px solid #ccc;
   }
