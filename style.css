@@ -42,12 +42,14 @@ header {
     border: 1px solid black;
     margin: 0 auto;
     width: 50%;
+    max-width: 80%;
   }
   
   th, td {
     border: 1px solid black;
     text-align: left;
     padding: 16px;
+    width: 25%;
   }
   
   tr:nth-child(even) {
