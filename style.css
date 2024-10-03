@@ -82,12 +82,3 @@ title, .htmlh1 {
     font-family: "Afacad Flux", sans-serif;
     color: rgb(149, 73, 73);
 }
-
-.afacad-flux-<uniquifier> {
-  font-family: "Afacad Flux", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-}
