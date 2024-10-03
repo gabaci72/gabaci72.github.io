@@ -28,13 +28,31 @@ header {
     font-style: italic;
   }
 
-  .container {
-    display: flex;
-    justify-content: space-between;
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid black;
   }
   
-  .column {
-    width: 30%; /* Her sütunun genişliği */
-    padding: 10px;
-    border: 1px solid #ccc;
+  th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 16px;
   }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  body {
+    text-indent: initial;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    white-space: normal;
+    font-variant: normal;
+}
