@@ -1,8 +1,16 @@
 /* styles.css */
 header {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4.44rem;
+  padding: 0 12%;
+  background-color: white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+  font-family: Verdana, sans-serif;
+  font-size: .77rem;
+  font-weight: bold;
   }
   
   nav ul {
@@ -17,6 +25,8 @@ header {
   nav li {
     display: inline-block;
     margin-right: 10px;
+    margin: 0;
+    padding: 0;
   }
   
   nav a {
