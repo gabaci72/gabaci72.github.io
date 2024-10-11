@@ -93,3 +93,18 @@ title, {
     color: rgb(149, 73, 73);
     font-size: 1.0rem
 }
+nav ul li {
+  list-style: none; /* Sıralama işaretini kaldır */
+  display: inline-block; /* Elemanları yan yana dizer */
+  padding: 10px 20px; /* İç ve dış boşluk */
+  background-color: #f0f0f0; /* Arka plan rengi */
+  border: 1px solid #ccc; /* Sınır */
+  border-radius: 5px; /* Yuvarlatılmış köşeler */
+  text-align: center; /* Metni ortala */
+  cursor: pointer; /* Imleci işaret parmağına çevir */
+  transition: background-color 0.3s ease; /* Hover efektleri için geçiş */
+}
+
+nav ul li:hover {
+  background-color: #e0e0e0; /* Hover olduğunda arka plan rengi değişir */
+}
