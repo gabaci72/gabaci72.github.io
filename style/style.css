@@ -12,6 +12,16 @@ header {
   font-size: 1.0rem;
   font-weight: bold;
   }
+
+  .bg-image {
+    background-image: url("../images/naturallifeandmentalpeace.png");
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+    opacity: 0.6;
+  }
+
   
   nav ul {
     list-style: none;
